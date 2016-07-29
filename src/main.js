@@ -5,10 +5,10 @@ import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
 
 import VueOnsen from 'vue-onsenui';
-import App from './App.vue';
+import {App, Home, Settings} from './components';
 
 Vue.use(VueOnsen, {
-	components: {}
+	components: {Home, Settings}
 });
 
 new Vue({
