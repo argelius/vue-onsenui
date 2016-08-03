@@ -1,6 +1,6 @@
 <template>
-  <ons-back-button>
-    <slot></slot>
+  <ons-back-button class="back-button">
+    {{ label }}
   </ons-back-button>
 </template>
 
@@ -8,6 +8,13 @@
   const noop = () => {};
 
   export default {
+    props: {
+      label: {
+        type: String,
+        default: 'Back'
+      }
+    },
+
     ready() {
       /**
        * Override default click behavior.

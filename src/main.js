@@ -5,13 +5,19 @@ import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
 
 import VueOnsen from 'vue-onsenui';
-import {App,
+import {
+  App,
   Tabbar,
-  Home
+  Home,
+  PullHook
 } from './components';
 
 Vue.use(VueOnsen, {
-	components: {Tabbar, Home}
+	components: {
+    Tabbar,
+    Home,
+    PullHook
+  }
 });
 
 new Vue({

@@ -1,12 +1,16 @@
 <template>
-  <ons-tabbar
-    :index="index"
-    :tabs="tabs"
-  ></ons-tabbar>
+  <ons-page>
+    <ons-tabbar
+      :index="index"
+      :tabs="tabs"
+    ></ons-tabbar>
+  </ons-page>
 </template>
 
 <script>
-	import {OnsTabbar} from 'vue-onsenui';
+  import {
+    OnsTabbar
+  } from 'vue-onsenui';
 
 	export default {
     data() {
@@ -22,7 +26,9 @@
       };
     },
 
-		components: {OnsTabbar}
+    components: {
+      OnsTabbar
+    }
 	};
 </script>
 
