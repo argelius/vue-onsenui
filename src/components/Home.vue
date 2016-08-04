@@ -9,10 +9,11 @@
         Components
       </ons-list-header>
       <ons-list-item
+        v-for="(component, label) in components"
         tappable
-        @click="$push({component: 'pull-hook'})">
+        @click="$push({component: component})">
         <div class="center">
-          Pull to refresh
+          {{ label }}
         </div>
       </ons-list-item>
     </ons-list>
@@ -21,5 +22,12 @@
 
 <script>
 	export default {
+    data() {
+      return {
+        components: {
+          'pull-hook': 'Pull to refresh'
+        }
+      };
+    }
 	};
 </script>
