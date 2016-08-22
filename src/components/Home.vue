@@ -25,7 +25,8 @@
     data() {
       return {
         components: {
-          'pull-hook': 'Pull to refresh'
+          'pull-hook': 'Pull to refresh',
+          'splitter': 'Side menu'
         }
       };
     }

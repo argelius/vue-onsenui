@@ -9,14 +9,16 @@ import {
   App,
   Tabbar,
   Home,
-  PullHook
+  PullHook,
+  Splitter
 } from './components';
 
 Vue.use(VueOnsen, {
 	components: {
     Tabbar,
     Home,
-    PullHook
+    PullHook,
+    Splitter
   }
 });
 
