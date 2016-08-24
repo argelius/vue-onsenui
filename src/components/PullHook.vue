@@ -1,6 +1,9 @@
 <template>
   <ons-page>
     <ons-toolbar>
+      <div class="center">
+        Pull to refresh
+      </div>
       <div class="left">
         <ons-back-button label="Home" @click="$pop()"></ons-back-button>
       </div>

@@ -10,7 +10,9 @@ import {
   Tabbar,
   Home,
   PullHook,
-  Splitter
+  Splitter,
+  Fab,
+  SpeedDial
 } from './components';
 
 Vue.use(VueOnsen, {
@@ -18,7 +20,9 @@ Vue.use(VueOnsen, {
     Tabbar,
     Home,
     PullHook,
-    Splitter
+    Splitter,
+    Fab,
+    SpeedDial
   }
 });
 

@@ -26,7 +26,9 @@
       return {
         components: {
           'pull-hook': 'Pull to refresh',
-          'splitter': 'Side menu'
+          'splitter': 'Side menu',
+          'fab': 'Floating action button',
+          'speed-dial': 'Speed dial'
         }
       };
     }
