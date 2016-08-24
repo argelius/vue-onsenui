@@ -12,7 +12,11 @@ import {
   PullHook,
   Splitter,
   Fab,
-  SpeedDial
+  SpeedDial,
+  Dialogs,
+  Forms,
+  Animations,
+  AnimationsChild
 } from './components';
 
 Vue.use(VueOnsen, {
@@ -22,7 +26,11 @@ Vue.use(VueOnsen, {
     PullHook,
     Splitter,
     Fab,
-    SpeedDial
+    SpeedDial,
+    Dialogs,
+    Forms,
+    Animations,
+    AnimationsChild
   }
 });
 

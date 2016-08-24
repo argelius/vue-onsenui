@@ -82,7 +82,7 @@
     methods: {
       onChange(event, index) {
         event.stopPropagation();
-        this.$emit('change', {index});
+        this.$emit('tab-change', {index});
       }
     }
   };
